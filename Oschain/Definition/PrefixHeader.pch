@@ -1,0 +1,39 @@
+//
+//  PrefixHeader.pch
+//  Oschain
+//
+//  Created by 王少帅 on 2018/7/2.
+//  Copyright © 2018 王少帅. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define MAS_SHORTHAND_GLOBALS   //使用全局宏定义,可以使equalTo等效于mas_equalTo
+#define MAS_SHORTHAND           //使用全局宏定义,可以在调用masonry方法的时候不使用mas_前缀
+#import <Masonry.h>
+#import <MJRefresh.h>
+#import <MBProgressHUD.h>
+#import <FMDB.h>
+#import <AFNetworking.h>
+#import <UIImageView+WebCache.h>
+#import <YYText.h>
+#import "ApiService.h"
+#import "Tool.h"
+#import "User.h"
+
+#import "APIDefinitions.h"
+#import "SomeDefinitions.h"
+#import "ColorDefinition.h"
+#import "NotificationDefinition.h"
+
+#import "UIView+SVCCHUD.h"
+#import "UIView+Frame.h"
+#import "UIFont+SVCCFont.h"
+#import "UIColor+SVCCHexColor.h"
+#import "UIButton+SVCCGradient.h"
+#import "UITextView+Placeholder.h"
+#import "UIImage+SVCCExtend.h"
+#import "UIImage+SVCCGradient.h"
+
+#endif /* PrefixHeader_pch */
