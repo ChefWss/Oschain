@@ -19,6 +19,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     [self checkAppVersion];
     
+    //123
     self.view.backgroundColor = [UIColor colorWithHexString:@"#DD99AA"];
     
 }
