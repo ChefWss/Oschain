@@ -18,6 +18,7 @@
         [v removeFromSuperview];
     }
 }
+
 //删除指定tag子试图
 + (void)removeSubviewWithTag:(NSInteger)tag fromView:(UIView *)view
 {
